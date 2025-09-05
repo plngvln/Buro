@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.Buro.title": "Настройки мода Buro",
+  "text.autoconfig.Buro.category.default": "Основные настройки",
+  "text.autoconfig.Buro.option.isModEnabled": "Включить мод",
+  "text.autoconfig.Buro.option.isModEnabled.@Tooltip": "Полностью включает или выключает все эффекты мода"
+}

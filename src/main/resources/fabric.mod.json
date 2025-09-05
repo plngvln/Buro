@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "buro",
+  "version": "${version}",
+  "name": "Buro",
+  "description": "",
+  "authors": ["p4pingvin4ik"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/buro/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.p4pingvin4ik.buro.client.BuroClient"
+    ],
+    "main": [
+      "net.p4pingvin4ik.buro.Buro"
+    ],
+    "modmenu": [
+      "net.p4pingvin4ik.buro.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "buro.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "cloth-config2": "*"
+  }
+}

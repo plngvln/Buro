@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.p4pingvin4ik.buro.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FogRenderMixin",
+    "SkyRenderingMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
